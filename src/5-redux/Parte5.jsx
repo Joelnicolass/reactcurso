@@ -15,7 +15,8 @@ const Parte5 = () => {
   return (
     <div>
       <h1>Redux</h1>
-      <h2>Contador: {contador}</h2>
+      <h2>Contador:</h2>
+      <h2 id="contador">{contador}</h2>
       <hr />
       <button onClick={() => dispatch(incrementar())}>+</button>
       <button onClick={() => dispatch(decrementar())}>-</button>
