@@ -5,8 +5,7 @@ import Parte2 from "./2-cicloDeVida-useEffect/Parte2";
 const App = () => {
   return (
     <>
-      {/* <Parte1 /> */}
-      <Parte2 />
+      <Parte1 />
     </>
   );
 };
